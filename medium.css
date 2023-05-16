@@ -1,0 +1,55 @@
+/* Resetowanie stylów domyślnych */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style dla kontenera strony */
+  body {
+    background-color: #4d4545;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Style dla nagłówka */
+  h1 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Style dla obszaru gry */
+  .game-area {
+    height: 500px;
+    position: relative;
+  }
+  #game-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: move-background 5s linear infinite;
+    background-image: url('background.jpg');
+    background-position: 0 0;
+  }
+  
+  @keyframes move-background {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -500px 0;
+    }
+  }
+  

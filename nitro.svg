@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg3366"
+   width="26.296867"
+   height="50.652519"
+   viewBox="0 0 26.296867 50.652519"
+   sodipodi:docname="715857.png"
+   inkscape:export-filename="Projekt Końcowy\nitro.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3370" />
+  <sodipodi:namedview
+     id="namedview3368"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g3372"
+     transform="translate(-222.18596,-66.185331)">
+    <path
+       style="opacity:1;fill:#666666;stroke-width:0.554017;stroke-linecap:round;stroke-miterlimit:38.5;paint-order:stroke fill markers"
+       d="m 222.78928,83.647586 -0.058,30.132704 c -1.84516,3.89866 26.27001,4.03369 24.70493,-0.0499 V 83.647586 Z"
+       id="path3547"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:#666666;stroke-width:0.554017;stroke-linecap:round;stroke-miterlimit:38.5;paint-order:stroke fill markers"
+       d="m 226.6168,77.86051 h 17.31085 c 2.96886,0.565454 3.71658,4.016031 3.71658,4.016031 l -24.73897,-0.04989 c -0.26103,-0.544471 0.42726,-3.453043 3.71154,-3.966142 z"
+       id="path3647"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:#666666;stroke-width:0.597415;stroke-linecap:round;stroke-miterlimit:38.5;paint-order:stroke fill markers"
+       d="m 237.38432,69.975318 h -4.42877 l -0.0205,8.449617 h 4.44927 z"
+       id="path3649"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:#666666;stroke-width:0.554017;stroke-linecap:round;stroke-miterlimit:38.5;paint-order:stroke fill markers"
+       d="m 242.34618,70.593911 h -14.455 c -2.56964,-0.861298 -1.99204,-3.166031 0.12302,-3.809868 l 14.18845,-0.03528 c 2.64725,0.382163 2.37238,3.48062 0.14353,3.845144 z"
+       id="path3651"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:#ffffff;stroke-width:0.554017;stroke-linecap:round;stroke-miterlimit:38.5;paint-order:stroke fill markers"
+       d="m 240.88302,92.078756 -12.52644,8.955004 h 6.23423 l -5.10337,7.2089 12.49745,-8.979948 -6.35021,0.02495 z"
+       id="path3653" />
+  </g>
+</svg>

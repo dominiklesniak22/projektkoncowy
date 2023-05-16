@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   width="467.617"
+   height="951.59521"
+   id="svg2"
+   style="display:inline"
+   sodipodi:docname="simple-travel-car-top_view.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2598"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4563049"
+     inkscape:cx="5.4787928"
+     inkscape:cy="455.83556"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <title
+     id="title3968">Red Car - Top View</title>
+  <defs
+     id="defs4" />
+  <g
+     transform="translate(-18.633635,-462.74551)"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g3890"
+       inkscape:label="samochód"
+       style="display:inline"
+       transform="rotate(-90,499.61748,971.86031)"
+       inkscape:export-filename="g3890.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         d="m 610.52488,493.69322 c -1.50863,0.009 -4.72109,0.30611 -6.46868,0.9375 l -3.49996,1.5 8.65615,35.84375 -124.81115,0.28125 c -77.96294,0.1654 -166.52257,-11.50367 -232.93499,-9.5 -66.41241,2.00366 -152.123355,28 -152.123355,28 l -13.687353,3.78125 c -19.251207,5.29627 -25.718472,97.36705 -25.718472,166.78125 0,1.11303 0.02665,2.25313 0.03125,3.375 -0.0046,1.12187 -0.03125,2.26197 -0.03125,3.375 0,69.4142 6.467265,161.48498 25.718472,166.78125 l 13.687353,3.78125 c 0,0 85.710945,25.99634 152.123355,28 66.41242,2.00367 154.97205,-9.6654 232.93499,-9.5 l 124.81115,0.28125 -8.65615,35.84375 3.49996,1.5 c 1.74759,0.63139 4.96005,0.92854 6.46868,0.9375 0.84859,0.005 1.75508,-0.0744 2.68747,-0.25 0.3107,-0.0584 0.62352,-0.14119 0.93749,-0.21875 0.30459,-0.0754 0.63259,-0.15686 0.93749,-0.25 0.62844,-0.19269 1.2635,-0.42206 1.87498,-0.6875 1.82153,-0.79201 3.53423,-1.90276 4.7812,-3.28125 0.01,-0.0107 0.0217,-0.0208 0.0312,-0.0312 0.6248,-0.69658 1.11228,-1.45281 1.46873,-2.28125 l 12.15612,-31.25 109.93631,0.25 c 23.90036,11.94238 45.51124,10.71875 73.59296,10.71875 133.24883,0 187.62627,-86.58633 186.99807,-201.375 0,-0.7802 -0.019,-1.56564 -0.031,-2.34375 0.012,-0.77811 0.031,-1.56355 0.031,-2.34375 0.6282,-114.78867 -53.74924,-201.375 -186.99807,-201.375 -28.08172,0 -49.6926,-1.22363 -73.59296,10.71875 l -109.93631,0.25 -12.15612,-31.25 c -0.35645,-0.82844 -0.84393,-1.58467 -1.46873,-2.28125 -0.01,-0.0104 -0.0213,-0.0206 -0.0312,-0.0312 -1.24697,-1.37849 -2.95967,-2.48924 -4.7812,-3.28125 -0.61148,-0.26544 -1.24654,-0.49481 -1.87498,-0.6875 -0.3049,-0.0931 -0.6329,-0.1746 -0.93749,-0.25 -0.31397,-0.0776 -0.62679,-0.16035 -0.93749,-0.21875 -0.93239,-0.1756 -1.83888,-0.255 -2.68747,-0.25 z"
+         id="path2853"
+         style="display:inline;fill:#33c802;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:label="karoseria"
+         inkscape:export-filename="pink_car.svg"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         d="m 400.34004,855.23645 c -33.36407,0 -65.30693,1.8 -94.81148,5.0625 25.66022,48.71366 97.98502,30.26531 205.56028,31.53125 49.68636,0.58471 89.54313,1.87929 121.52994,2.375 -47.1597,-23.33417 -133.52669,-38.96875 -232.27874,-38.96875 z"
+         id="path3643"
+         style="opacity:0.9;fill:#262626;fill-opacity:0.996078;stroke:#000000;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:label="szyba_boczna" />
+      <path
+         d="m 400.34004,855.23645 c -3.20645,0 -6.3831,0.0295 -9.5624,0.0625 0.81825,16.17101 6.42806,30.25652 14.59359,38.84375 4.67141,-0.0756 9.49509,-0.19655 14.43735,-0.34375 -8.56569,-8.1923 -14.59264,-22.22803 -15.71858,-38.5625 -1.25125,-0.005 -2.49466,0 -3.74996,0 z"
+         id="path3658"
+         style="opacity:0.5;fill:#000000;fill-opacity:0.996078;stroke:none"
+         inkscape:label="uszczelka" />
+      <path
+         d="m 989.02119,827.5 -5.0937,0.59375 c -21.54475,2.51272 -37.68825,25.97858 -39.28083,54.53125 l -0.37499,7.125 5.24994,-4.84375 c 15.88918,-14.68042 28.30315,-32.50737 37.40585,-52.75 z"
+         id="path3707"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:#191919;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         inkscape:label="lampa" />
+      <path
+         d="m 260.49741,607.38072 -77.74917,12.46875 c -27.1504,4.35415 -48.94714,48.77276 -50.99945,104.84375 2.05231,56.07099 23.84905,100.4896 50.99945,104.84375 l 77.74917,12.46875 c 13.29585,0 23.99974,-10.704 23.99974,-24 v -186.625 c 0,-13.296 -10.70389,-24 -23.99974,-24 z"
+         id="rect2864"
+         style="opacity:0.9;fill:#262626;fill-opacity:0.996078;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:label="szyba_tylnia" />
+      <path
+         d="m 691.9615,573.16197 c -2.96919,0 -5.89327,0.33215 -8.78116,0.96875 -0.0104,-0.01 -0.0208,-0.021 -0.0312,-0.0312 l -63.84311,12.3125 c -17.7278,6.60469 -31.99965,14.272 -31.99965,32 v 212.5625 c 0,17.728 14.27185,25.39531 31.99965,32 l 63.84306,12.3125 c 0.0105,-0.0102 0.0208,-0.0211 0.0312,-0.0312 2.88789,0.6366 5.81197,0.96875 8.78116,0.96875 45.39547,0 82.19753,-57.36263 82.31161,-151.53125 -0.11408,-94.16862 -36.91614,-151.53125 -82.31161,-151.53125 z"
+         id="path3703"
+         style="display:inline;opacity:0.9;fill:#262626;fill-opacity:0.996078;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:label="szyba_przednia" />
+      <path
+         d="m 400.34004,594.14987 c -33.36407,0 -65.30693,-1.8 -94.81148,-5.0625 25.66022,-48.71366 97.98502,-30.26531 205.56028,-31.53125 49.68636,-0.58471 89.54313,-1.87929 121.52994,-2.375 -47.1597,23.33417 -133.52669,38.96875 -232.27874,38.96875 z"
+         id="path4157"
+         style="opacity:0.9;fill:#262626;fill-opacity:0.996078;stroke:#000000;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:label="zyba_boczna" />
+      <path
+         d="m 400.34004,594.14987 c -3.20645,0 -6.3831,-0.0295 -9.5624,-0.0625 0.81825,-16.17101 6.42806,-30.25652 14.59359,-38.84375 4.67141,0.0756 9.49509,0.19655 14.43735,0.34375 -8.56569,8.1923 -14.59264,22.22803 -15.71858,38.5625 -1.25125,0.005 -2.49466,0 -3.74996,0 z"
+         id="path4159"
+         style="opacity:0.5;fill:#000000;fill-opacity:0.996078;stroke:none"
+         inkscape:label="uszczelka" />
+      <path
+         d="m 989.02119,621.88632 -5.0937,-0.59375 c -21.54475,-2.51272 -37.68825,-25.97858 -39.28083,-54.53125 l -0.37499,-7.125 5.24994,4.84375 c 15.88918,14.68042 28.30315,32.50737 37.40585,52.75 z"
+         id="path4161"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:#191919;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         inkscape:label="lampa" />
+    </g>
+  </g>
+</svg>

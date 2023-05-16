@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Race to the Finish - Trudny</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>body {
+      background-color: #4d4545;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin: 0;
+    }
+    
+
+    .container {
+      margin: 20px auto;
+      max-width: 600px;
+      text-align: center;
+    }
+    
+    
+    .game-area {
+      
+      border: 1px solid #ff0000;
+      height: 400px;
+      margin: 20px auto;
+      width: 600px;
+    }
+    /* Resetowanie stylów domyślnych */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+
+    
+    
+    /* Style dla nagłówka */
+    h1 {
+      color: rgb(216, 216, 216);
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+    
+    /* Style dla obszaru gry */
+    
+    
+    .table {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  height: 300px;
+}
+
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 500px;
+  width: 600px;
+  border: 1px solid #ff0000;
+  margin: 20px auto;
+}
+
+    .muzuka{
+      display: flex;
+      justify-content: flex-end;
+      margin: 5px;
+    }
+    /* Style dla elementów gry */
+    .game-area img {
+      width: 100px;
+      height: 150px;
+      position: absolute;
+      bottom: 0;
+    }
+    #player-car {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .obstacle {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      
+    
+      }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #start-button {
+        background-color: #1abc9c;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      
+    .muzyka img{
+      padding: 56px;
+    }
+    
+      #game-logo {
+       height: 500px ;
+       width: 600px;
+      }
+    
+      
+     
+      
+      
+    
+    
+      /* Style dla obszaru gry */
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      
+      /* Style dla elementów gry */
+      .car {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+      }
+      .color{
+        display: flex;
+        justify-content: flex-start;
+       
+      }
+  .color button img{
+    width: 75px;
+    height: 100px;
+   }
+   table{
+    border:5px solid black;
+   
+   }
+   table button{
+    padding: 3px;
+    border: 5px solid black;
+   }
+
+
+
+  .table caption{
+    border: 5px solid black;
+    border-bottom: 0px;
+   
+  }
+  .table2 caption{
+    border: 5px solid black;
+    border-bottom: 0px;
+   
+  }
+#kolizja{
+  color: rgb(216, 216, 216);
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+}
+#one{
+  background-image: url(przeszkoda-zolta-czarna.png);
+}#two{
+  background-image: url(przeszkoda-bialo-czerwona.png);
+}#three{
+  background-image: url(przeszkoda-2-z-c.png);
+}#four{
+  background-image: url(przeszkoda-2-b-c.png);
+}
+.table2{
+  background-color:#4d4545;
+}
+.table2{
+  
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  padding: 5px;
+  margin: 5px;
+  
+}
+.nitro{
+  position: absolute;
+  height: 50px;
+  width: 25px;
+  background-image: url(nitro.svg);
+}
+#start_but{
+ 
+  width: 200px;
+  height: 100px;
+}
+.game-area {
+  position: relative;
+  text-align: center;
+}
+#start_but {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Race to the Finish - Gra</h1>
+      <p id="kolizja"></p>
+      
+      <div class="game-area">
+      
+
+        <div id="game-background"></div> 
+
+
+      </div> 
+      <div class="muzuka">
+        <button id="faster-button">Szybciej</button>
+        <button id="slower-button">Wolniej</button>
+       
+    </div>
+    
+  </div>
+  <div class="table">
+  <table  id="sam_tab" >
+    <caption><b> Zmień kolor pojazdu</b></caption>
+  
+
+    <tr>
+      <td>
+        <div class="color"> <button id="colorg" ><img src="green_car.svg" alt="" id="car_green" > </button></div>
+      </td>
+      <td>
+        <div class="color"> <button id="colorp" ><img src="pink_car.svg" alt="" id="car_pink"></button></div>
+      </td>
+    </tr>
+     
+    <tr>
+      <td><div class="color"> <button id="colorr" ><img src="red_car.svg" alt="" id="car_red"></button></div></td>
+      <td><div class="color"> <button id="colorb" ><img src="blue_car.svg" alt="" id="car_blue"></button></div></td>
+    </tr>
+  </table>
+</div>
+<div class="table2">
+  <table  id="sam_tab" >
+    <caption><b> Zmień kolor przeszkód</b></caption>
+  
+
+    <tr>
+      <td>
+        <div class="przesz"> <button id="g" ><img src="przeszkoda-zolta-czarna.png" alt="" id="one" > </button></div>
+      </td>
+      <td>
+        <div class="przesz"> <button id="p" ><img src="przeszkoda-bialo-czerwona.png" alt="" id="two"></button></div>
+      </td>
+    </tr>
+     
+    <tr>
+      <td><div class="przesz"> <button id="r" ><img src="przeszkoda-2-z-c.png" alt="" id="three"></button></div></td>
+      <td><div class="przesz"> <button id="b" ><img src="przeszkoda-2-b-c.png" alt="" id="four"></button></div></td>
+    </tr>
+  </table>
+</div>
+
+    <script>
+      const gameArea = document.querySelector('.game-area');
+const button = document.createElement('button');
+const img5 = document.createElement('img')
+img5.setAttribute('src', 'background2.png')
+img5.style.width = '100%'
+img5.style.height = '100%'
+button.type = 'button';
+button.innerText = 'Start game';
+button.setAttribute('id', 'start_but')
+button.classList.add('button');
+gameArea.style.background = '#000';
+
+button.addEventListener('click', function() {
+  wszystko();
+  gameArea.style.background = 'none';
+  button.style.display = 'none';
+  img5.style.display = 'none'
+});
+gameArea.appendChild(img5)
+gameArea.appendChild(button);
+
+   
+      
+     function wszystko(){
+
+        // utworzenie elementu div z atrybutami id i class
+const divElement = document.createElement('div');
+divElement.setAttribute('id', 'player-car');
+divElement.setAttribute('class', 'car');
+
+// utworzenie elementu img z atrybutami src i alt
+const imgElement = document.createElement('img');
+imgElement.setAttribute('src', 'red_car.svg');
+imgElement.setAttribute('alt', '');
+imgElement.setAttribute('id', 'color_car');
+
+// dodanie elementu img do elementu div
+divElement.appendChild(imgElement);
+
+// znalezienie elementu o klasie game-area i dodanie do niego elementu div
+const gameArea5 = document.querySelector('.game-area');
+gameArea5.appendChild(divElement);
+
+ // tworzenie nowego arkusza stylów
+const style = document.createElement("style");
+style.type = "text/css";
+style.innerHTML = `
+#game-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      animation: move-background 2.1s linear infinite;
+      background-image: url('background.png');
+      background-position: 0 0;
+    }
+    
+    @keyframes move-background {
+      from {
+        background-position: 0 -500px;
+      }
+      to {
+        background-position:0 0 ;
+      }
+    }
+`;
+
+// dodawanie arkusza stylów do nagłówka dokumentu HTML
+const head = document.querySelector("head");
+head.appendChild(style);
+     
+// Pobranie elementów DOM
+const startButton = document.querySelector('.start-game');
+const gameArea = document.querySelector('.game-area');
+let playerSpeed = 4;
+let playerCar = document.querySelector('#player-car');
+let isLeftArrowPressed = false;
+let isRightArrowPressed = false;
+let isUpArrowPressed = false;
+let isDownArrowPressed = false;
+
+// Ustawienie pozycji początkowej gracza
+let playerPosition = {
+  x: gameArea.offsetWidth / 2 - playerCar.offsetWidth / 2,
+  y: 0
+};
+playerCar.style.left = playerPosition.x + 'px';
+playerCar.style.bottom = playerPosition.y + 'px';
+
+let kolor = document.getElementById('color_car')
+ function color_p () {
+  kolor.src = "pink_car.svg"
+
+ }
+ function color_g () {
+  kolor.src = "green_car.svg"
+
+ }
+ function color_r () {
+  kolor.src = "red_car-fire.svg"
+
+ }
+ function color_b () {
+  kolor.src = "blue_car.svg"
+
+ }
+let zdj = "one"
+//generowanie przeszkód
+function  one(){
+  zdj = "one"
+}function  two(){
+  zdj = "two"
+}function  three(){
+  zdj = "three"
+}function  four(){
+  zdj = "four"
+}
+
+const colorGreenBtn = document.getElementById('colorg');
+  const colorPinkBtn = document.getElementById('colorp');
+  const colorRedBtn = document.getElementById('colorr');
+  const colorBlueBtn = document.getElementById('colorb');
+
+  colorGreenBtn.addEventListener('click', color_g);
+  colorPinkBtn.addEventListener('click', color_p);
+  colorRedBtn.addEventListener('click', color_r);
+  colorBlueBtn.addEventListener('click', color_b);
+
+  const colorGreenBtn2 = document.getElementById('g');
+  const colorPinkBtn2 = document.getElementById('p');
+  const colorRedBtn2 = document.getElementById('r');
+  const colorBlueBtn2 = document.getElementById('b');
+
+  colorGreenBtn2.addEventListener('click', one);
+  colorPinkBtn2.addEventListener('click', two);
+  colorRedBtn2.addEventListener('click', three);
+  colorBlueBtn2.addEventListener('click', four);
+// Sprawdzenie, czy obiekt nie wyjeżdża poza obszar gry
+function checkBoundaries() {
+  if (playerPosition.x < 25) {
+    playerPosition.x = 25;
+    playerCar.style.left = '25px';
+  }
+  if (playerPosition.x > 500) {
+    playerPosition.x = 500;
+    playerCar.style.left = "500px";
+  }
+  if (playerPosition.y < 0) {
+    playerPosition.y = 0;
+    playerCar.style.bottom = '0px';
+  }
+  if (playerPosition.y >350) {
+    playerPosition.y = 350;
+    playerCar.style.bottom = playerPosition.y + 'px';
+  }
+}
+
+// Przesuwanie gracza za pomocą strzałek
+const moveInterval = setInterval(function() {
+  if (isLeftArrowPressed && playerPosition.x > 0) {
+    playerPosition.x -= playerSpeed;
+    playerCar.style.left = playerPosition.x + 'px';
+  }
+  if (isRightArrowPressed && playerPosition.x < 500) {
+    playerPosition.x += playerSpeed;
+    playerCar.style.left = playerPosition.x + 'px';
+  }
+  if (isUpArrowPressed && playerPosition.y < 350) {
+    playerPosition.y += playerSpeed;
+    playerCar.style.bottom = playerPosition.y + 'px';
+  }
+  if (isDownArrowPressed && playerPosition.y > 0) {
+    playerPosition.y -= playerSpeed;
+    playerCar.style.bottom = playerPosition.y + 'px';
+  }
+  checkBoundaries();
+}, 10);
+
+document.addEventListener('keydown', function(event) {
+  switch (event.keyCode) {
+    case 65: // strzałka w lewo
+      isLeftArrowPressed = true;
+      break;
+    case 68: // strzałka w prawo
+      isRightArrowPressed = true;
+      break;
+    case 87: // strzałka w górę
+      isUpArrowPressed = true;
+      break;
+    case 83: // strzałka w dół
+      isDownArrowPressed = true;
+      break;
+  }
+
+  // Aktualizacja pozycji gracza
+  movePlayer();
+});
+
+document.addEventListener('keyup', function(event) {
+  switch (event.keyCode) {
+    case 65: // strzałka w lewo
+      isLeftArrowPressed = false;
+      break;
+    case 68: // strzałka w prawo
+      isRightArrowPressed = false;
+      break;
+    case 87: // strzałka w górę
+      isUpArrowPressed = false;
+      break;
+    case 83: // strzałka w dół
+      isDownArrowPressed = false;
+      break;
+  }
+
+  // Aktualizacja pozycji gracza
+  movePlayer();
+});
+
+function movePlayer() {
+  if (isLeftArrowPressed && playerPosition.x > 0) {
+    playerPosition.x -= playerSpeed;
+    playerCar.style.left = playerPosition.x + 'px';
+  }
+  if (isRightArrowPressed && playerPosition.x < 500) {
+    playerPosition.x += playerSpeed;
+    playerCar.style.left = playerPosition.x + 'px';
+  }
+  if (isUpArrowPressed && playerPosition.y < 350) {
+    playerPosition.y += playerSpeed;
+    playerCar.style.bottom = playerPosition.y + 'px';
+  }
+  if (isDownArrowPressed && playerPosition.y > 0) {
+    playerPosition.y -= playerSpeed;
+    playerCar.style.bottom = playerPosition.y + 'px';
+  }
+
+  // Sprawdzenie, czy obiekt nie wyjeżdża poza obszar gry
+  if (playerPosition.x < 25) {
+    playerPosition.x = 25;
+    playerCar.style.left = '25px';
+  }
+  if (playerPosition.x > 500) {
+    playerPosition.x = 500;
+    playerCar.style.left = "500px";
+  }
+  if (playerPosition.y < 0) {
+    playerPosition.y = 0;
+    playerCar.style.bottom = '0px';
+  }
+  if (playerPosition.y >350) {
+    playerPosition.y = 350;
+    playerCar.style.bottom = playerPosition.y + 'px';
+  }
+}
+
+// Pętla animacji
+function gameLoop() {
+  movePlayer();
+  requestAnimationFrame(gameLoop);
+}
+requestAnimationFrame(gameLoop);
+
+//zmiana koloru
+
+let random_num 
+ setInterval(function(){
+ random_num = Math.floor(Math.random() * 4) + 1;
+  },10)
+
+//pobieranie elementów
+let gameArea2 = document.querySelector('.game-area');
+const obstacle = document.querySelector('.obstacle');
+function createObstacle() {
+
+//generowanie przeszkody
+  const obstacle = document.createElement('div');
+    obstacle.classList.add('obstacle');
+    obstacle.setAttribute('id', zdj);
+    obstacle.style.left = `${Math.floor(Math.random() * 476) + 25}px`;
+    obstacle.style.top = '0px';
+    gameArea2.appendChild(obstacle);
+
+  const moveInterval_obstacle = setInterval(() => {
+    obstacle.style.top = `${parseInt(obstacle.style.top) + 10}px`;
+    if (parseInt(obstacle.style.top) >= 490) {
+      clearInterval(moveInterval_obstacle);
+      obstacle.remove();
+    }
+  }, 25);
+}
+
+//interwały na tworzenie przeszkód
+setInterval(createObstacle, 1200);
+setInterval(createObstacle, 2000);
+//generowanie nitro 
+function createNitro(){
+  const nitro = document.createElement('div');
+  nitro.classList.add('nitro');
+  nitro.style.left = `${Math.floor(Math.random() * 476) + 25}px`;
+  nitro.style.top = '0px';
+  gameArea2.appendChild(nitro);
+
+  const moveInterval_nitro = setInterval(function() {
+    nitro.style.top = `${parseInt(nitro.style.top) + 10}px`;
+    if (parseInt(nitro.style.top) >= 430) {
+      clearInterval(moveInterval_nitro);
+      nitro.remove();
+    }
+  }, 25) 
+}setInterval(createNitro, 2000);
+// Pobierz elementy z HTML-a
+let playerCar2 = document.getElementById('color_car');
+let obstacles = document.getElementsByClassName('obstacle');
+let kolizjap = document.getElementById('kolizja')
+//sprawdza kolizje z nitro
+
+// Funkcja sprawdzająca kolizję
+function checkCollision(obstacle) {
+  // Pobierz pozycję gracza i przeszkody
+  const playerCarRect = playerCar2.getBoundingClientRect();
+  const obstacleRect = obstacle.getBoundingClientRect();
+
+  // Sprawdź, czy elementy nachodzą na siebie
+  return !(
+    playerCarRect.bottom+15 < obstacleRect.top ||
+    playerCarRect.top+15 > obstacleRect.bottom ||
+    playerCarRect.right+15 < obstacleRect.left ||
+    playerCarRect.left+15 > obstacleRect.right
+  );
+}
+
+// utworzenie elementu stopera
+const timer = document.createElement('div');
+timer.setAttribute('id', 'timer');
+
+// ustawienie początkowego czasu stopera
+let hours = 0;
+let minutes = 0;
+let seconds = 0;
+timer.innerText = '00:00:00';
+
+// funkcja aktualizująca czas stopera
+function updateTime() {
+  seconds++;
+  if (seconds === 60) {
+    seconds = 0;
+    minutes++;
+    if (minutes === 60) {
+      minutes = 0;
+      hours++;
+    }
+  }
+  // formatowanie czasu w formacie hh:mm:ss
+  let h = hours < 10 ? '0' + hours : hours;
+  let m = minutes < 10 ? '0' + minutes : minutes;
+  let s = seconds < 10 ? '0' + seconds : seconds;
+  timer.innerText = h + ':' + m + ':' + s;
+}
+
+// zmienna przechowująca setInterval
+let intervalId;
+
+// funkcja uruchamiająca stoper
+function startTimer() {
+  intervalId = setInterval(updateTime, 1000);
+}
+
+// funkcja zatrzymująca stoper
+function stopTimer() {
+  clearInterval(intervalId);
+}
+
+// znalezienie elementu o klasie game-area i dodanie do niego elementu stopera
+const container = document.getElementById('kolizja')
+const gameArea3 = document.querySelector('.game-area');
+container.appendChild(timer);
+startTimer();
+
+let kolizja1 = 0
+// Funkcja wywoływana za każdym razem, gdy przeszkoda przesunie się na dół
+function moveObstacles() {
+  // Dla każdej przeszkody sprawdź, czy doszło do kolizji z graczem
+  for (const obstacle of obstacles) {
+    if (checkCollision(obstacle)) {
+     stopTimer() 
+ 
+    
+      
+    }else {
+      
+    }
+  }
+}
+
+// Wywołaj funkcję `moveObstacles` co 1000 milisekund
+setInterval(moveObstacles, 30);
+      }
+      
+
+     </script>
+  </body>
+</html>

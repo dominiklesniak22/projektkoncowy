@@ -1,0 +1,251 @@
+.container {
+  left: 5%;
+  margin: 20px ;
+  width: 600px;
+  text-align: center;
+  margin-right: 0;
+  height: 80%;
+}
+
+
+
+
+/* Style dla obszaru gry */
+
+
+
+
+
+.game-area {
+display: flex;
+justify-content: center;
+position: relative;
+height: 700px;
+width: 900px;
+border: 2px solid #ff0000;
+margin: 20px ;
+}
+
+
+/* Style dla elementów gry */
+.game-area img {
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  bottom: 0;
+}
+#player-car {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.obstacle {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  
+
+  }
+
+  
+
+  
+.muzyka img{
+  padding: 56px;
+}
+
+  #game-logo {
+   height: 500px ;
+   width: 600px;
+  }
+
+ 
+  
+  
+
+
+  /* Style dla obszaru gry */
+  .container {
+    max-height: 923px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  /* Style dla elementów gry */
+  .car {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+  }
+  .color{
+    display: flex;
+    justify-content: flex-start;
+   
+  }
+.color button img{
+width: 75px;
+height: 100px;
+}
+table{
+border:3px solid rgb(0, 0, 0);
+
+}
+table button{
+padding: 3px;
+border: 3px solid rgb(0, 0, 0);
+}
+
+.ster table, .ster table caption{
+  border: 3px solid rgb(0, 0, 0);
+  
+}
+.ster table caption{
+  border-bottom: 0;
+}
+
+.ster table div{
+  border: 3px solid rgb(0, 0, 0);
+  margin: 3px;
+}
+
+.table2 caption{
+border: 3px solid rgb(0, 0, 0);
+border-bottom: 0px;
+
+}
+#kolizja{
+color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+#one{
+background-image: url(przeszkoda-zolta-czarna.png);
+}#two{
+background-image: url(przeszkoda-bialo-czerwona.png);
+}#three{
+background-image: url(przeszkoda-2-z-c.png);
+}#four{
+background-image: url(przeszkoda-2-b-c.png);
+}
+
+.table2{
+
+position: absolute;
+top: 50%;
+left: 5%;
+padding: 5px;
+margin: 5px;
+
+}
+.nitro{
+position: absolute;
+height: 50px;
+width: 25px;
+background-image: url(nitro.svg);
+}
+#start_but{
+
+width: 200px;
+height: 100px;
+}
+.game-area {
+position: relative;
+text-align: center;
+}
+#start_but {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.ster caption{
+  border: 5px solid black;
+  border-bottom: 0;
+}
+.ster div {
+  align-items: center;
+  border: 5px solid black;
+  
+}
+.ster div p{
+  margin:0 8px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  
+ 
+  
+  
+}
+@keyframes blink {
+  0% {
+    background-color: #EFEFEF;
+  }
+  50% {
+    background-color: #808080;
+  }
+  100% {
+    background-color: #EFEFEF;
+  }
+}
+
+/* Przycisk z animacją */
+#start_but {
+  animation: blink 1.9s infinite;
+}
+@keyframes butan {
+  from{
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  to{
+    background-color: rgba(148, 148, 148, 0.9);
+    transform: scale(0.93);
+  }
+}
+.prz:hover{
+ 
+animation-name: butan;
+animation-duration: 1s;
+background-color: rgba(148, 148, 148, 0.9);
+border: 0;
+}
+.ster {
+  position: absolute;
+   top: 45%;
+  left: 80%;
+
+
+  }
+
+  .ster table{
+    width: 200px;
+  height: 300px;
+  }
+  .red{
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background-image: url(red.svg);
+      
+  }
+  .green{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(green.svg);
+  }
+  .blue{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(blue.svg);
+  }
+  .pink{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(pink.svg);
+  }

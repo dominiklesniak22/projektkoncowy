@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>race-hard</title>
+  <link rel="icon" href="logo-białe.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-level.css">
+  <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="logo-białe.svg" alt="Logo">
+      <span id="text">Drive for Time</span>
+    </div>
+    <div class="menu-icon">
+      <img src="menu-icon.svg" alt="Menu">
+    </div>
+
+  
+    <ul class="menu">
+      <li class="glowna"><a href="glowna.html">Strona główna</a></li>
+      <li class="dropdown">
+        
+        <a href="#">Gra</a>
+        <ul class="dropdown-menu">
+          <li><a href="easy.html"> łatwy</a></li>
+          <li><a href="medium.html"> średni</a></li>
+        </ul>
+        
+      </li>
+
+    </ul>
+    </nav>
+  <div class="container">
+    <h1>Poziom trudny</h1>
+    <p id="kolizja"></p>
+    
+    <div class="game-area">
+    
+
+      <div id="game-background"></div> 
+
+
+    </div> 
+  
+</div>
+
+<div class="table2">
+<table  id="sam_tab" >
+  <caption><b> Zmień kolor przeszkód</b></caption>
+
+
+  <tr>
+    <td>
+      <div class="przesz"> <button id="g" class="prz"><img src="przeszkoda-zolta-czarna.png" alt="" id="one" > </button></div>
+    </td>
+    <td>
+      <div class="przesz"> <button id="p"class="prz"><img src="przeszkoda-bialo-czerwona.png" alt="" id="two"></button></div>
+    </td>
+  </tr>
+   
+  <tr>
+    <td><div class="przesz"> <button id="r" class="prz"><img src="przeszkoda-2-z-c.png" alt="" id="three"></button></div></td>
+    <td><div class="przesz"> <button id="b" class="prz"><img src="przeszkoda-2-b-c.png" alt="" id="four"></button></div></td>
+  </tr>
+</table>
+
+</div>
+<div class="ster">
+  <table id="stertable">
+    <caption><b>Sterowanie pojazdem</b></caption>
+    <tr>
+      <td>
+       
+        <div class="w"><p>W górę</p>  <br><img src="W_Key_Light.png" alt=""></div>
+      </td>
+      <td>
+        <div class="s"><p>W dół </p><br><img src="S_Key_Light.png" alt=""></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="a"><p>W lewo</p> <br><img src="A_Key_Light.png" alt=""></div>
+      </td>
+      <td>
+        <div class="d"><p>W prawo</p> <br><img src="D_Key_Light.png" alt=""></div>
+      </td>
+    </tr>
+  </table>
+</div>
+<footer>
+  <div class="footer"></div>
+</footer>
+<script src="menu.js"></script>
+<script src="hard.js"></script>
+</body>
+</html>
